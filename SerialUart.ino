@@ -29,9 +29,9 @@ void loop()   /****** LOOP: RUNS CONSTANTLY ******/
   {
     ByteReceived = Serial.read();
     Serial.print(ByteReceived);   
-    Serial.print("        ");      
+    Serial.print("         ");      
     Serial.print(ByteReceived, HEX);
-    Serial.print("       ");     
+    Serial.print("        ");     
     Serial.print(char(ByteReceived));
     
     if(ByteReceived == '1') // Single Quote! This is a character.
